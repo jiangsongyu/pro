@@ -1,0 +1,15 @@
+body, div, img, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, li, ol, form, input, textarea, th, td { padding: 0; margin: 0; }
+
+a { text-decoration: none; }
+
+ul, li { list-style: none; }
+
+img { display: block; border: 0 none; margin: 0; padding: 0; float: left; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.clear:after { display: block; height: 0; content: ""; clear: both; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.contanner { width: 1200px; margin: 0 auto; }

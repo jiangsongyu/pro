@@ -1,0 +1,77 @@
+/*
+    * 变量
+    * 选择器嵌套
+        * & 表示父元素选择器
+    * 运算
+    * 引入其他sass文件
+        * import
+    *遍历
+        * @for $var from <start> through <end>（包含end值）
+        * @for $var from <start> to <end>（不包含en值）
+    *继承
+        * @extend
+ */
+
+#ding {width: 100%;background-color:#243444;
+    .contanner{position: relative;
+        width: 1200px;margin:0 auto;padding:0;
+        a{height: 60px;display:block;}
+        button{border-radius:50% 50%;background-color: rgba(255,255,255,0.3);position: absolute;top:0;right:0;}
+    }
+}
+#header{
+    .top_t{background-color: #333;height: 28px;
+        .contanner{margin-bottom:15px;
+            div{
+                float: right;position: relative;
+                a{
+                    color:#ccbeb8;line-height: 28px;padding: 0 10px;font-size:14px;                
+                }
+                a:hover{color:#fff;}
+                .yan{
+                    color:#d9c398;                  
+                }
+                .yan:hover{color:#fff;}
+                span{color:#5a5552;margin:7px 12px;}
+                
+                    .box1{
+                        img{margin:30px 50px;}
+                        display:none;background-color: #FFF;position: absolute;top:28px;right:0;          
+                        }
+                    
+                    .box2{
+                        img{margin:30px 50px;}
+                        display:none;background-color: #FFF;position: absolute;top:28px;right:0;          
+                        }
+                    }
+                    .box3{position: absolute;top:28px;right:0;width: 226px;height: 186px;          
+                        ul{margin-top:182px;display:none;
+                            height: 34px;line-height:34px;background-color:#fafafa ;text-align:center ;
+                            li{color:#ccbeb8;float: left;font-size:14px;width: 113px;display:block;}
+                            .on{color:#fff;float: left;background-color: #333;font-size:14px;width: 113px;display:block; 
+                            }
+                        }
+                    }
+                }
+             }
+}
+
+#header{
+    .top_t{
+        .contanner{
+            .box{
+                a{padding:6px}
+                a:hover{background-color: #FFF;color:black;}
+                }
+        }
+    }
+    .top_c{
+        .rig{
+            img{margin-left:50px;margin-top:25px;margin-bottom:25px;float: left;}
+        }
+        .lig{width: 560px;height: 94px;margin-top:40px;margin-left:135px;
+            input{width: 329px;height: 36px;float: left;}
+            button{height: 40px;width: 80px;float: left;background-color: #b32424;color:#fff;border:none;}
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 变量 选择器嵌套 & 表示父元素选择器 运算 引入其他sass文件 import 遍历 @for $var from <start> through <end>（包含end值） @for $var from <start> to <end>（不包含en值） 继承 @extend */
+#ding { width: 100%; background-color: #243444; }
+
+#ding .contanner { position: relative; width: 1200px; margin: 0 auto; padding: 0; }
+
+#ding .contanner a { height: 60px; display: block; }
+
+#ding .contanner button { border-radius: 50% 50%; background-color: rgba(255, 255, 255, 0.3); position: absolute; top: 0; right: 0; }
+
+#header .top_t { background-color: #333; height: 28px; }
+
+#header .top_t .contanner { margin-bottom: 15px; }
+
+#header .top_t .contanner div { float: right; position: relative; }
+
+#header .top_t .contanner div a { color: #ccbeb8; line-height: 28px; padding: 0 10px; font-size: 14px; }
+
+#header .top_t .contanner div a:hover { color: #fff; }
+
+#header .top_t .contanner div .yan { color: #d9c398; }
+
+#header .top_t .contanner div .yan:hover { color: #fff; }
+
+#header .top_t .contanner div span { color: #5a5552; margin: 7px 12px; }
+
+#header .top_t .contanner div .box1 { display: none; background-color: #FFF; position: absolute; top: 28px; right: 0; }
+
+#header .top_t .contanner div .box1 img { margin: 30px 50px; }
+
+#header .top_t .contanner div .box2 { display: none; background-color: #FFF; position: absolute; top: 28px; right: 0; }
+
+#header .top_t .contanner div .box2 img { margin: 30px 50px; }
+
+#header .top_t .contanner .box3 { position: absolute; top: 28px; right: 0; width: 226px; height: 186px; }
+
+#header .top_t .contanner .box3 ul { margin-top: 182px; display: none; height: 34px; line-height: 34px; background-color: #fafafa; text-align: center; }
+
+#header .top_t .contanner .box3 ul li { color: #ccbeb8; float: left; font-size: 14px; width: 113px; display: block; }
+
+#header .top_t .contanner .box3 ul .on { color: #fff; float: left; background-color: #333; font-size: 14px; width: 113px; display: block; }
+
+#header .top_t .contanner .box a { padding: 6px; }
+
+#header .top_t .contanner .box a:hover { background-color: #FFF; color: black; }
+
+#header .top_c .rig img { margin-left: 50px; margin-top: 25px; margin-bottom: 25px; float: left; }
+
+#header .top_c .lig { width: 560px; height: 94px; margin-top: 40px; margin-left: 135px; }
+
+#header .top_c .lig input { width: 329px; height: 36px; float: left; }
+
+#header .top_c .lig button { height: 40px; width: 80px; float: left; background-color: #b32424; color: #fff; border: none; }
